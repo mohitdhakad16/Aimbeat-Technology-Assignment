@@ -1,0 +1,57 @@
+/* ==== CSS Reset ====== */
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.filterButtons button{
+    margin: 0px 10px;
+}
+
+@media screen and (max-width:768px) {
+    .dropdowns {
+        width: 100%;
+    }
+
+    .socialIcons {
+        width: 100%;
+    }
+
+    .FirstUpperNav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    /* ======== slide menu css ========= */
+    .side-menu {
+        position: fixed;
+        height: 100vh;
+        width: 95%;
+        top: 2px;
+        z-index: 99999999 !important;
+        background: white;
+    }
+
+    .cancelbtn {
+        top: -0.5rem;
+    }
+
+    .sortButtons {
+        flex-direction: column;
+    }
+
+    .filterBtn{
+        width: 100%;
+    }
+
+    .filterButtons{
+        flex-direction: column;
+    }
+
+    .filterButtons button{
+        margin: 10px 0px;
+    }
+}
